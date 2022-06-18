@@ -1,0 +1,177 @@
+.faq_main_container {
+  width: 90%;
+  margin: auto;
+}
+.main_accor {
+  padding: 0.3rem 0;
+}
+.main_faq_cont {
+  background-color: #f8f8f8;
+}
+.faq_desc {
+  margin: 100px 0 !important;
+}
+.faq_cards {
+  margin: 20px 0 !important;
+}
+.main_head {
+  border-bottom: 1px solid #ea228f;
+}
+.head_font {
+  font-weight: 700;
+  line-height: 32.81px;
+  font-size: 28px;
+}
+.vews_count {
+  font-weight: 300;
+  font-size: 1.1rem;
+  padding-top: 0.4rem;
+  color: #252525;
+}
+.faq_link_container p {
+  text-align: center !important;
+  color: #ea228f;
+  cursor: pointer;
+  text-decoration: underline !important;
+}
+.faq_link_container a {
+  color: #ea228f !important;
+  text-decoration: underline !important;
+}
+.accordion_name > button {
+  background-color: #ea228f !important;
+}
+#acc_item {
+  border: 0 !important;
+  background-color: #f8f8f8 !important;
+}
+.main_accor > .accordion-item {
+  background-color: red !important;
+  border: 1px solid blueviolet;
+}
+.accordion_name .accordion .accordion-item {
+  border: 0 !important;
+}
+.accordion_name > .accordion-button::after {
+  background-image: url("../../../public/images/minus_symbol.png") !important;
+  transform: rotate(-180deg);
+}
+.accordion_name > button:focus {
+  box-shadow: none !important;
+}
+.main_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 30px 0;
+}
+.card_desc {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.card_no {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  background-color: #ea228f;
+  color: #fefefe;
+  margin: 10px auto;
+  display: block;
+  border-radius: 50%;
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq_img {
+  display: block;
+  width: 85%;
+  margin: auto;
+}
+.m_set {
+  margin: 40px auto !important;
+}
+.m_auto {
+  margin: auto;
+}
+.accordian_title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fefefe;
+  position: relative;
+}
+.accordian_title {
+  padding-left: 24px;
+}
+.accordian_title::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 1px;
+  left: 0%;
+  top: 50%;
+  transform: translateX(-10%);
+  background: #fefefe;
+}
+
+.faq_end_desc,
+.faq_end_desc:hover {
+  text-align: center !important;
+  color: #ea228f !important;
+  text-decoration: underline !important;
+  display: block;
+  padding: 50px 0;
+}
+p.footer_text {
+  margin-bottom: 0 !important;
+  /* font-family: Roboto !important; */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  padding: 1rem;
+  text-align: center;
+  color: #f8f8f8;
+}
+.footer_container {
+  background-color: #ea228f;
+  margin-bottom: 0 !important;
+  position: relative;
+  bottom: 0%;
+}
+.text_center {
+  text-align: center;
+}
+.list_style_none {
+  list-style: none;
+}
+.outfit_list {
+  margin: 10px 0;
+  padding-left: 0;
+}
+.for_top_pad {
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+.container_accor {
+  text-align: left;
+  padding: 20px 0;
+}
+.container_accor p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #252525;
+}

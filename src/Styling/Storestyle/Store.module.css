@@ -1,0 +1,76 @@
+.store_caption {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.store_text {
+  width: 434px;
+  margin: auto;
+}
+.store_text p {
+  font-family: Roboto;
+
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 35.16px;
+}
+.store_button {
+  display: block;
+  border-radius: 30px;
+  border: 1px solid #ea228f;
+  width: 150px;
+  color: #fff;
+  padding: 5px 20px;
+}
+.pink_color {
+  background-color: #ea228f;
+}
+.color_pink {
+  color: #ea228f;
+}
+.store_button_container {
+  margin: 30px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.store_logo {
+  margin: 30px 0;
+}
+.text_center {
+  text-align: center;
+}
+.store_img_selector {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.d_block {
+  display: block;
+  width: 130px;
+  height: 319px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.store_last_contnet {
+  padding: 100px 0;
+}
+.store_main_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 50px;
+}
+.h_100 {
+  height: 100%;
+}
+.store_app_buttons img {
+  width: 150px;
+}
+.app_button_container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

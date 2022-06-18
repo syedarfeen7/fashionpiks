@@ -1,0 +1,111 @@
+.faq_related_info {
+  border-top: 3px solid #f3eff1;
+  margin-top: 4rem !important;
+}
+.faq_related_info_caption {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  margin: 20px auto;
+}
+.faq_conf_title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 30px;
+}
+.input_label {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+  padding-left: 10px;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ea228f;
+  border-radius: 100%;
+  background: #f8f8f8;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #ea228f;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.feedback_wrapper {
+  padding-top: 2rem;
+}
+.feedback_title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #252525;
+}
+.feedback_para {
+  font-weight: 400;
+  color: #252525;
+  font-size: 1.1rem;
+}
+.feedback_field {
+  background-color: #ededed !important;
+  border: none !important;
+  padding: 2rem 1rem !important;
+  color: #a4a4a4 !important;
+  font-weight: 400 !important;
+}
+.feedback_field:focus {
+  box-shadow: 0 0 0 0.05rem #ea228f !important;
+}
+.feedback_btn_wrapper {
+  text-align: right !important;
+  padding: 2rem 0;
+}
+.feedback_submit_btn {
+  padding: 0.5rem 5rem !important;
+  font-size: 1.1rem !important;
+  border: none !important;
+  border-radius: 30px !important;
+  background-color: #ea228f !important;
+}

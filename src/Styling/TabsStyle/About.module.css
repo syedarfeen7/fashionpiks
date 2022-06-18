@@ -1,0 +1,75 @@
+.about_Container {
+  background-color: #fefefe;
+  padding: 1.5rem 3rem !important;
+  width: 100% !important;
+  margin: 3rem auto 0 auto;
+  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+.setting_icon_wrapper {
+  text-align: right;
+}
+.setting_icon_wrapper :first-child {
+  font-size: 2rem;
+  color: #d9d9d9;
+  cursor: pointer;
+}
+.col2_wrapper {
+  padding-left: 2rem;
+}
+.about_heading_wrapper,
+.userName_heading_wrapper,
+.country_heading_wrapper,
+.gender_heading_wrapper {
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.about_heading_wrapper :last-child,
+.userName_heading_wrapper :last-child,
+.gender_heading_wrapper :last-child,
+.country_heading_wrapper :last-child {
+  border-bottom: 1px solid var(--pink-font);
+}
+.about_para_wrapper,
+.username_wrapper,
+.country_wrapper,
+.gender_wrapper {
+  padding: 1.5rem 0;
+}
+.country_wrapper :first-child,
+.gender_wrapper :first-child {
+  width: 30px;
+}
+.country_wrapper :last-child,
+.gender_wrapper :last-child {
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .col2_wrapper {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about_Container {
+    background-color: #fefefe;
+    padding: 1.5rem 2rem !important;
+    margin: 3rem auto 0 auto;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .about_Container {
+    padding: 1.5rem 1.5rem !important;
+  }
+}
+@media only screen and (max-width: 353px) {
+  .about_heading_wrapper,
+  .userName_heading_wrapper,
+  .country_heading_wrapper,
+  .gender_heading_wrapper {
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+}

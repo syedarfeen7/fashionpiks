@@ -1,0 +1,83 @@
+.login_row_wrapper {
+  margin: auto;
+  width: 70%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+/* LOGIN RIGHT BOX STYLING */
+.login_right_box {
+  padding-right: 1.5rem;
+}
+.p_login_heading {
+  padding-bottom: 3rem;
+}
+
+.login_left_box_logo img {
+  width: 100% !important;
+}
+.password_wrapper {
+  position: relative;
+}
+.eye_icon {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  color: #a4a4a4;
+  cursor: pointer;
+}
+.password_field {
+  display: block;
+}
+
+.forgot_password,
+.signup_link span {
+  color: var(--pink-font) !important;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.remember_me {
+  font-size: 1rem;
+}
+
+.signup_link strong,
+.remember_me {
+  color: var(--pink-font) !important;
+}
+.signup_link {
+  padding-top: 2rem;
+  padding-bottom: 2.3rem;
+}
+.signin_btn {
+  padding: 0.6rem 3.5rem;
+}
+
+@media (max-width: 997px) {
+  .login_row_wrapper {
+    width: 90%;
+  }
+  .login_right_box {
+    padding-right: 0 !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .login_row_wrapper {
+    background: #fff;
+  }
+  .main_log_img {
+    display: none !important;
+  }
+  .right_form_box {
+    padding: 0 30px !important;
+  }
+  .main_wrapper {
+    padding: 4rem 0;
+  }
+  .signup_link {
+    padding: 4rem 0 2.5rem 0 !important;
+  }
+  .signin_btn {
+    padding: 0.3rem 2.7rem;
+  }
+}

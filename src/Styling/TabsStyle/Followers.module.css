@@ -1,0 +1,150 @@
+.followers_container {
+  background-color: #fefefe;
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem !important;
+  margin-top: 3rem;
+  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+}
+.followers_tab {
+  position: relative;
+}
+.follwers_search_wrapper {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.search_wrapper {
+  position: relative;
+}
+.search_icon {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  color: #a4a4a4;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: 0.2s ease all;
+}
+.search_icon:hover {
+  color: var(--pink-font);
+}
+.header_search_field {
+  padding: 0.6rem 2rem 0.7rem 2.5rem !important;
+  border: none !important;
+  background-color: #f8f8f8 !important;
+  color: #a4a4a4;
+  border-radius: 30px !important;
+}
+.header_search_field:focus {
+  box-shadow: 0 0 0 0.05rem #ea228f !important;
+}
+.card_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.card_inner_wrapper img {
+  width: 83px;
+  height: 82px;
+}
+.main_card_wrapper {
+  padding: 1rem 0.2rem;
+}
+.card_inner_wrapper {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 1.5rem 2.4rem 0.5rem 2.4rem;
+}
+.card_name {
+  margin-bottom: 0;
+  padding-top: 0.6rem;
+  font-weight: 400;
+}
+.card_icon_wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+.card_icon {
+  color: #a4a4a4 !important;
+  cursor: pointer;
+  transition: 0.2s ease all;
+}
+.cross {
+  margin-top: 0.1rem;
+}
+.subtract_circle {
+  color: #a4a4a4 !important;
+  padding-bottom: 0.1rem;
+  font-size: 1.27rem !important;
+}
+.subtract_circle_on_Following,
+.user_minus {
+  font-size: 1.2 rem !important;
+}
+.card_icon_wrapper .check {
+  font-size: 1.2rem !important;
+}
+.card_icon_wrapper .slash_circle {
+  font-size: 1.1rem !important;
+}
+
+.card_icon:hover {
+  color: var(--pink-font) !important;
+}
+.total_followers_count {
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 1.2rem 0rem;
+}
+.total_followers_count :last-child {
+  border-bottom: 1px solid var(--pink-font);
+}
+
+@media only screen and (max-width: 768px) {
+  .follwers_search_wrapper {
+    top: 105px;
+  }
+}
+
+@media only screen and (max-width: 483px) {
+  .card_inner_wrapper {
+    padding: 1rem 2rem 0.5rem 2rem;
+  }
+  .card_inner_wrapper img {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 357px) {
+  .card_inner_wrapper {
+    padding: 1rem 4rem 1rem 4rem;
+  }
+  .main_card_wrapper {
+    width: 100%;
+    padding: 0.5rem 0rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .total_followers_count {
+      margin-top: 3rem;
+    }
+    .follwers_search_wrapper {
+      top: 90px;
+      width: 100% !important;
+    }
+    .search_wrapper {
+      width: 100% !important;
+    }
+    .search_wrapper input{
+      padding: .6rem 1rem .6rem 3rem  !important;
+    }
+    .followers_container {
+      padding: 1rem !important;
+
+    }
+}

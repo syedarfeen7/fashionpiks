@@ -1,0 +1,26 @@
+.footer_wrapper {
+  width: 65%;
+  margin: auto;
+  padding-bottom: 1rem;
+  padding-top: 5.5rem;
+}
+.footer_wrapper ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.footer_wrapper ul li,
+.copyright_wrapper span {
+  color: var(--pink-font);
+  font-weight: 500;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+.copyright_wrapper {
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .footer_container {
+    display: none !important;
+  }
+}

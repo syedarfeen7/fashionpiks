@@ -1,0 +1,97 @@
+.modal_wrapper {
+  padding: 1rem 1.5rem !important;
+}
+.modal_header {
+  border-bottom: 0 !important;
+}
+.modal_footer {
+  border-top: 0 !important;
+}
+.modal_header_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #f8f8f8;
+  padding-bottom: 1rem;
+}
+.modal_header_wrapper .cross {
+  font-size: 1.7rem;
+  color: #a4a4a4;
+  cursor: pointer;
+}
+.modal_title {
+  font-weight: 700;
+}
+.modal_title span {
+  border-bottom: 1px solid var(--pink-font);
+}
+.caption_text_wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.caption_text_field {
+  padding: 1.2rem 5rem 1.2rem 1rem !important;
+  background-color: #f8f8f8 !important;
+  color: #a4a4a4 !important;
+  font-weight: 300 !important;
+  border: none !important;
+  border-top-left-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  width: 100% !important;
+}
+.main_wrapper:focus-within {
+  border-radius: 30px;
+  outline: 1px solid #ea228f;
+  box-shadow: none !important;
+}
+.caption_text_field {
+  box-shadow: none !important;  
+}
+.length_counter {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  font-weight: 100 !important;
+  color: #a4a4a4;
+}
+.main_wrapper {
+  display: flex;
+  align-items: center;
+}
+.gallery_icon {
+  padding: 0.76rem 2rem;
+  background-color: #f3eff1;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.occasion_share_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 2rem 0;
+}
+.select_wrapper .select {
+  background-color: #f8f8f8 !important;
+  border: none !important;
+  color: #a4a4a4 !important;
+  font-weight: 300;
+  border-radius: 30px;
+  padding: 0.7rem 3rem 0.7rem 1rem;
+}
+.select_wrapper .select:focus {
+  box-shadow: 0 0 0 0.05rem #ea228f !important;
+}
+.select_wrapper .select .option:hover {
+  background-color: #f8f8f880 !important;
+  color: red !important;
+}
+.publish_btn {
+  background-color: #ea228f !important;
+  border: none !important;
+  font-weight: 400 !important;
+  padding: 0.6rem 2.5rem !important;
+  border-radius: 30px !important;
+}

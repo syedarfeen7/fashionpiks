@@ -1,0 +1,58 @@
+.bgPink {
+  background: var(--pink-font) !important;
+}
+.bgPink .nav_links .nav_item {
+  color: #fefefe !important;
+}
+.togggle .navbar-light .navbar-toggler {
+  border: 0 !important;
+}
+
+.nav_links {
+  padding-top: 0.7rem;
+  padding-right: 1rem;
+}
+.nav_item {
+  padding-right: 2rem !important;
+  font-weight: 300 !important;
+  color: #a4a4a4 !important;
+}
+.country_dropdown {
+  border: none !important;
+  color: #a4a4a4 !important;
+  font-weight: 100;
+  width: auto;
+}
+.country_dropdown > button {
+  border: none !important;
+  background-color: #f8f8f8;
+  font-weight: 300 !important;
+  color: #a4a4a4 !important;
+}
+.bgPink .country_dropdown > button {
+  background-color: #f050a8;
+  color: #fefefe !important;
+}
+.country_dropdown
+  .ReactFlagsSelect-module_selectValue__152eS
+  .ReactFlagsSelect-module_selectOption__3pcgW {
+  margin: 0 !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .nav_item {
+    padding-right: 1rem !important;
+    padding-left: 0.4rem !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .header_one {
+    padding: 0.7rem 2rem !important;
+  }
+  .header_one .navbar-toggler {
+    border-color: none !important;
+  }
+  .header_one button > span .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+}

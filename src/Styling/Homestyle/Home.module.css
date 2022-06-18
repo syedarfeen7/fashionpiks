@@ -1,0 +1,208 @@
+.home_container {
+  background-color: #f3eff1;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+.home_post_wrapper {
+  width: 100% !important;
+  border-radius: 10px;
+}
+.home_polls_details_wrapper {
+  background-color: #fefefe;
+  padding: 2rem 2rem 0.1rem 2rem;
+  margin-bottom: 1.2rem;
+  border-radius: 10px;
+}
+.right_aside_wrapper {
+  background-color: #fefefe;
+  text-align: center;
+  padding: 0.7rem 1rem 0.2rem 1rem;
+  border-radius: 10px;
+}
+.left_aside {
+  background-color: #fefefe;
+  border-radius: 10px;
+  padding: 1rem 0;
+}
+.left_aside_wrapper_ {
+  background-color: #f3eff1;
+  text-align: center;
+}
+.left_aside_wrapper_,
+.right_aside_wrapper {
+  position: sticky;
+  top: 14%;
+}
+.image_name_wrapper img {
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+  border: 5px solid rgba(32, 32, 32, 0.2);
+}
+.image_name_wrapper p {
+  margin-top: 1rem;
+  color: var(--pink-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 26px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.follower_count_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+}
+.freinds_image_wrapper {
+  padding: 1rem 2rem;
+  background-color: #fefefe;
+  margin-top: 0.7rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.freinds_image_wrapper {
+  margin-bottom: 1rem;
+}
+.freinds_image_wrapper img {
+  width: 59px;
+  height: 59px;
+  margin-left: -10px;
+}
+.inner_wrapper :first-child {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+}
+.inner_wrapper :last-child {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+}
+.create_poll_btn {
+  background-color: var(--pink-font) !important;
+  border: none !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  text-align: center !important;
+  letter-spacing: 0.05em !important;
+  padding: 0.8rem 1rem !important;
+  margin-bottom: 0.8rem;
+}
+.center_sec {
+  overflow-y: scroll;
+  border: 1px solid;
+  height: 100vh;
+}
+
+.home_pink_div {
+  height: 60px;
+}
+.request_wrapper {
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  background-color: #f8f8f8;
+}
+.pending_heading span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.pending_heading {
+  margin-bottom: 1rem;
+}
+.pending_heading :last-child {
+  border-bottom: 1px solid var(--pink-font);
+}
+.image_wrapper {
+  padding-top: 1rem;
+}
+.image_wrapper img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+.image_wrapper p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+.request_action_wrapper {
+  margin-top: 0.8rem;
+}
+.request_action_wrapper strong,
+.request_action_wrapper p {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 0.4rem;
+}
+.request_action_wrapper strong {
+  font-weight: 800;
+}
+.card_icon {
+  margin-right: 0.5rem;
+  color: #a4a4a4;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+.card_icon:hover {
+  color: var(--pink-font);
+}
+.check {
+  font-size: 1.2rem;
+}
+.cross {
+  font-size: 1.7rem;
+}
+
+.polls_dropdown_container .polls_dropdown_wrapper {
+  text-align: right;
+}
+.polls_dropdown_wrapper > button {
+  background-color: transparent !important;
+  border: none !important;
+}
+.polls_dropdown_wrapper > button::after {
+display: none;
+}
+.polls_dropdown_wrapper .menu_wrapper {
+  border: none !important;
+  filter: drop-shadow(-4px -4px 10px rgba(0, 0, 0, 0.04)) drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.04)) !important;
+  text-align: left !important;
+  padding: .8rem 0;
+}
+.menu_icon {
+  color: #D9D9D9;
+  font-size: 1.6rem;
+}
+.polls_dropdown_wrapper .menu_wrapper > a{
+  color: #a4a4a4 !important;
+  font-weight: 400 !important;
+}
+.polls_dropdown_wrapper .menu_wrapper a:active {
+  background-color: #f8f8f8 !important;
+}
+.polls_dropdown_wrapper .menu_wrapper a:hover {
+  background-color: #f8f8f8 !important;
+}
+.menu_wrapper a {
+  padding: 0.2rem 1rem !important;
+}
